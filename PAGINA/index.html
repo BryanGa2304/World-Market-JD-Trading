@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Market JD Trading</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">WORLD MARKET JD TRADING</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link "  href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#productos">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#promocion">Colaboraciones
+                </a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Sección de Inicio -->
+    <section style="border-bottom: 10px solid goldenrod;" id="inicio" class="py-5 text-center bg-light">
+        <div class="container">
+           
+            <img id="Logo"src="9532afe0-0bc5-4f2c-8d88-ce05186e9e04.jpg">
+            <h4 id="in">Te damos la bienvenida a World Market JD Trading, Somos una empresa que te va a ofrecer variedad de productos a un buen precio, también te ofrecemos nuestra asesoría  publicidad para tus productos. No busques más, aquí podrás encontrar lo que estabas buscando </h4>
+        </div>
+
+        <!-- Iconos de redes sociales -->
+        <div class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/world_marketjd615trading?igsh=MWV4OWNleXM2MXBjdA=="><i id="instagram"class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61564495880348"><i id="facebook"class="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/c/573132028564"><i id="WhatsApp"class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <!-- Sección de Productos -->
+    <section id="productos" class="py-5">
+        <div id="fondo"class="container">
+            <h2 style="margin-top: 40px;"class="text-warning text-center">Tecnología</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                <!-- Producto 1 -->
+                <div style="height: 450px; width: 300px;" class="col">
+                    <div id="p1" class="card h-100" onclick="mostrarDetalles('producto1')">
+                        <img src="WS.jpg" class="card-img-top" alt="Producto 1">
+                        <div  class="card-body" >
+                            <h5 class="card-title text-center">Audífonos Inalambricos TWS</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <div style="height: 450px; width: 300px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto2')">
+                        <img src="C:\Users\JUAN\Downloads\P R O G R A M A T I O N\Prueba\PAGINA\WhatsApp Image 2024-09-14 at 9.21.23 PM (1).jpeg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Audífonos Inalambricos</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 3 -->
+                <div style="height: 450px; width: 290px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto3')">
+                        <img src="C:\Users\JUAN\Downloads\P R O G R A M A T I O N\Prueba\PAGINA\WhatsApp Image 2024-09-14 at 9.21.23 PM (2).jpeg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Cascos TA82</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 4-->
+                <div style="height: 450px; width: 250px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto4')">
+                        <img src="C:\Users\JUAN\Downloads\P R O G R A M A T I O N\Prueba\PAGINA\WhatsApp Image 2024-09-14 at 9.21.23 PM (3).jpeg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Audífonos Inalambricos TWS</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más productos pueden ir aquí -->
+                <!-- Producto 5 -->
+                <div style="height: 450px; width: 300px; margin-left: 300px; margin-bottom: 50px;" class="col">
+                    <div id="p1" class="card h-100" onclick="mostrarDetalles('producto5')">
+                        <img src="C:\Users\JUAN\Downloads\P R O G R A M A T I O N\Prueba\PAGINA\WhatsApp Image 2024-09-14 at 9.21.23 PM.jpeg" class="card-img-top" alt="Producto 1">
+                        <div  class="card-body" >
+                            <h5 class="card-title text-center">Audífonos Inalambricos Tipo Armadura</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 6 -->
+                <div style="height: 450px; width: 300px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto6')">
+                        <img src="C:\Users\JUAN\Downloads\P R O G R A M A T I O N\Prueba\PAGINA\WhatsApp Image 2024-09-14 at 9.21.22 PM.jpeg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Lámpara Bluetooth</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más productos pueden ir aquí -->
+                
+                <!-- Más productos pueden ir aquí -->
+            </div>
+        </div>
+        <hr>
+        <!-- Más productos pueden ir aquí -->
+        <div class="container">
+            <h2 class="text-warning text-center">Ropa y Accesorios</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                <!-- Producto 1 -->
+                <div style="height: 450px; width: 300px;" class="col">
+                    <div id="p1" class="card h-100" onclick="mostrarDetalles('producto1b')">
+                        <img src="anillo-corazon.jpg" class="card-img-top" alt="Producto 1">
+                        <div  class="card-body" >
+                            <h5 class="card-title text-center">Anillo con forma de corazon</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <div style="height: 450px; width: 300px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto2b')">
+                        <img src="bff.jpg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Aretes Best Friends Forever</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 3 -->
+                <div style="height: 450px; width: 290px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto3b')">
+                        <img src="cadena-cora.jpg"class="card-img-top" alt="Producto 3">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Cadena de corazon</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 4-->
+                <div style="height: 450px; width: 250px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto4b')">
+                        <img src="gato-yang.jpg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Collar de gatos estilo yingyang</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más productos pueden ir aquí -->
+                <!-- Producto 5 -->
+                <div style="height: 450px; width: 300px; " class="col">
+                    <div id="p1" class="card h-100" onclick="mostrarDetalles('producto5b')">
+                        <img src="gema.jpg" class="card-img-top" alt="Producto 1">
+                        <div  class="card-body" >
+                            <h5 class="card-title text-center">Anillo con forma de gema</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 6 -->
+                <div style="height: 450px; width: 300px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto6b')">
+                        <img src="yingyang.jpg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Cadena estilo yingyang</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más productos pueden ir aquí -->
+                 <!-- Más productos pueden ir aquí -->
+                 <div style="height: 450px; width: 290px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto7b')">
+                        <img src="reloj.jpg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Reloj Dior</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más productos pueden ir aquí -->
+               
+                <!-- Más productos pueden ir aquí -->
+                <div style="height: 450px; width: 235px; " class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto8b')">
+                        <img src="guayos.jpg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Guayos de Futbol</h5>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Más productos pueden ir aquí -->
+                 <div style="height: 450px; width: 300px; margin-left: 450px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto9b')">
+                        <img src="Male.jpg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Riñonera</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Más productos pueden ir aquí -->
+            </div>
+        </div>
+        <!-- Iconos de redes sociales -->
+        <div class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/world_marketjd615trading?igsh=MWV4OWNleXM2MXBjdA=="><i style="width: 20px;" id="instagram"class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61564495880348"><i id="facebook"class="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/c/573132028564"><i id="WhatsApp"class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <!-- Sección de Promoción -->
+    <section style="border-top: 10px solid goldenrod;" id="promocion" class="py-5 text-center bg-light">
+        <div class="container">
+            <h2 style="margin-top: 40px;"class="text-warning">Publicidad de Colaboraciones</h2>
+            <p class="lead">Ofrecemos un servicio de publicidad para promover productos de otros negocios. Contacta con nosotros para más información.</p>
+            <div class="container">
+                <h2 class="text-warning text-center">Obsequios & algo mas</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+                    <!-- Producto 1 -->
+                    <div style="height: 450px; width: 300px;" class="col">
+                        <div id="p1" class="card h-100" onclick="mostrarDetalles('producto1c')">
+                            <img src="up.jpg" class="card-img-top" alt="Producto 1">
+                            <div  class="card-body" >
+                                <h5 class="card-title text-center">Ancheta con motivo de Up</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Producto 2 -->
+                    <div style="height: 450px; width: 300px;" class="col">
+                        <div id="p1"class="card h-100" onclick="mostrarDetalles('producto2c')">
+                            <img src="grado.jpg"class="card-img-top" alt="Producto 2">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ancheta Personalizable</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Producto 3 -->
+                    <div style="height: 450px; width: 270px; margin-right: 10px;" class="col">
+                        <div id="p1"class="card h-100" onclick="mostrarDetalles('producto3c')">
+                            <img src="madre.jpg"class="card-img-top" alt="Producto 2">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Regalo para mamá con Vino Blanco</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Producto 4-->
+                    <div style="height: 450px; width: 235px;" class="col">
+                        <div id="p1"class="card h-100" onclick="mostrarDetalles('producto4c')">
+                            <img src="envidia.jpg"class="card-img-top" alt="Producto 2">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ancheta almohada de emociones</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Más productos pueden ir aquí -->
+                   <!-- Producto 1 -->
+                   <div style="height: 450px; width: 300px;" class="col">
+                    <div id="p1" class="card h-100" onclick="mostrarDetalles('producto5c')">
+                        <img src="monacho.jpg" class="card-img-top" alt="Producto 1">
+                        <div  class="card-body" >
+                            <h5 class="card-title text-center">Globo con motivo de Kuromi</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <div style="height: 450px; width: 300px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto6c')">
+                        <img src="doraemon.jpg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Globo de Doraemon y girasoles</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 3 -->
+                <div style="height: 450px; width: 270px; margin-right: 10px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto7c')">
+                        <img src="oso-azul.jpg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Oso de peluche</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 4-->
+                <div style="height: 450px; width: 235px;" class="col">
+                    <div id="p1"class="card h-100" onclick="mostrarDetalles('producto8c')">
+                        <img src="globo-profe.jpg"class="card-img-top" alt="Producto 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Globo Personalizable Rosado</h5>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Producto 6 -->
+                    <div style="height: 450px; width: 300px; margin-left: 450px;" class="col">
+                        <div id="p1"class="card h-100" onclick="mostrarDetalles('producto9c')">
+                            <img src="rosas-doradas.jpg"class="card-img-top" alt="Producto 2">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Ramo de flores con listones</h5>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- Más productos pueden ir aquí -->
+                     
+                    <!-- Más productos pueden ir aquí -->
+                </div>
+            </div>
+            <hr>
+        <!-- Iconos de redes sociales -->
+        <div class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/world_marketjd615trading?igsh=MWV4OWNleXM2MXBjdA=="><i id="instagram"class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61564495880348"><i id="facebook"class="fa-brands fa-facebook"></i></a>
+            <a href="https://wa.me/c/573132028564"><i id="WhatsApp"class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <!-- Modal para detalles de productos -->
+    <div class="modal fade" id="detallesProductoModal" tabindex="-1" aria-labelledby="detallesProductoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="nombre-producto">Nombre del Producto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="descripcion-producto">Descripción del producto...</p>
+                    <p id="precio-producto">Precio: $0.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

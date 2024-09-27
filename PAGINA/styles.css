@@ -1,0 +1,71 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    background-size: cover;
+    border-bottom: 20px solid goldenrod;
+    
+
+}
+
+#productos{
+    background-image:url('fondo1.jpg') ;
+    background-size: cover;
+}
+.navbar {
+    border-bottom: 7px solid goldenrod;
+}
+
+h2 {
+
+    color: black;
+}
+
+.card {
+    border: 1px solid goldenrod;
+    cursor: pointer;
+}
+
+.redes-sociales img {
+    width: 70px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.modal-content {
+    border: 2px solid goldenrod;
+}
+
+#instagram{
+margin: 10px;
+size: 70px;
+color: blueviolet;
+}
+
+#facebook{
+    margin: 10px;
+    size: 70px;
+    
+    }
+
+#WhatsApp{
+        margin: 10px;
+        size: 70px;
+        color: green;
+        }
+        #Logo{
+            border:  2px solid goldenrod;
+            border-radius: 140px;
+border-width: 6px;
+width: 200px;
+height: 200px;
+margin-bottom: 40px;
+        }
+
+        #in{
+margin-left: 40px;
+margin-right: 40px;
+        }
+        #p1{
+            width: 200px;
+            height: 100px;
+        }
